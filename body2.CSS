@@ -1,0 +1,128 @@
+/* Center everything on the page */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/BB.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-style: normal;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(29, 28, 28, 0); 
+}
+
+
+
+h2{
+    text-align: center;
+    font-style: sans-serif;
+    color: rgb(252, 249, 249);
+}
+  
+.Login-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.Login-box label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Login-box input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(179, 71, 175);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.a.footer-links{
+    text-align: center;
+
+}
+.Login-box button:hover {
+    background-color: rgb(150, 50, 150);
+}
+
+.button a {
+        text-align: center;
+        color:white;
+        text-decoration: none;
+
+    }
+
+    #nav {
+        position: unset;
+        text-align: center;
+        padding: 10%;
+        
+    }
+
+.footer-links{
+    position:unset;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(12, 5, 12);
+    padding: 0% 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ol a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ol a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+

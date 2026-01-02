@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="body2.CSS">
+    <br><br>
+
+    <h1 style="color: white;">Swiftek Solutions</h1>
+    </h1><br><br>
+
+    <h2 style="color: white;font-style: italic;">Login Now</h2>
+    
+    
+            <div class="Login-box">
+            <!--username-->
+            <label for="username">username:</label>
+            <input type="text" id="username" name="username"><br><br>
+
+            <!--Password-->
+            <label for="Password">Password:</label>
+            <input type="password" pattern="[A-Za-z0-9]+" placeholder="Letters and numbers only"><br><br>
+
+        <button id="signInBtn" disabled onclick="window.location.href='page1.html'">Sign In</button><br><br>
+
+        <script>
+            const usernameInput = document.getElementById('username');
+            const passwordInput = document.querySelector('input[type="password"]');
+            const signInBtn = document.getElementById('signInBtn');
+
+            function checkInputs() {
+                if (usernameInput.value.trim() && passwordInput.value.trim()) {
+                    signInBtn.disabled = false;
+                } else {
+                    signInBtn.disabled = true;
+                }
+            }
+
+            usernameInput.addEventListener('input', checkInputs);
+            passwordInput.addEventListener('input', checkInputs);
+        </script>
+
+           <a style="color:white; font-style: italic; position: center;" href="index5.html">Creat a new account</a>
+             </div> 
+             <br>
+
+            <a  style="color:white;" href="index4.html">Forgot Password</a><br><br><br><br>
+        
+
+
+    <nav>
+        <ol>
+            <a href="index2.html">AboutUs</a>
+            <a href="index3.html">Terms & Conditions</a>
+        </ol>
+    </nav>
+    </form>
+    </body>
+</html>

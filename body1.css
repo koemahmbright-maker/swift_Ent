@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(94, 88, 100);
+    background-size: cover;
+    background-position: center;
+    user-select: none;
+    overflow-x: hidden; /* removes side scrolling */
+}
+
+/* Mobile default */
+body {
+    padding: 0%;
+}
+/*navigation bar*/
+
+.navbar  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    color: rgb(236, 231, 235);
+    gap: 10px;
+}
+
+.navbar .left{
+    height: 100px;
+    width: 65px;
+}
+nav1 {
+    background-color: rgb(248, 246, 246);
+    place-items: unset;
+    padding: 1px;
+    width: 100%;
+    text-align: center;
+    
+}
+button{
+    padding: 10px 10px;
+    background-color: rgb(124, 105, 161);
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+/* Header link button */
+a.header-link {
+    padding: 10px 15px;
+    background-color: rgb(179, 71, 175);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Heading */
+h3 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+/* Image */
+.move-img {
+    width: 200px;
+    max-width: 90%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Hover animation fix */
+.move-img:hover {
+    transform: scale(1.05);
+}
